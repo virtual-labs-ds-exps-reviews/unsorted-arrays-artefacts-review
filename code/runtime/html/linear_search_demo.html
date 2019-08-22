@@ -1,0 +1,64 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+       <title>Linear Search Demonstration</title>
+       <link rel="stylesheet" href="../css/linearSearch.css">
+       <script src="../js/search_demo.js"></script>
+  </head>
+  <body onload="randomise(0);">
+    <article>
+        <div id="animation"></div>
+        <div class="instruction-box">
+            <b>Instructions</b>:
+            <ul>
+                <li>Click on the next button to start the demo.</li>
+                <li>Move the slider to adjust the speed of the demo.</li>
+                <li>Click on the pause button if you want to stop and manually click the Next button to have a step by step
+                    realization of the process.</li>
+                <li>Click on the reset button to start all over with a new set of random numbers!</li>
+            </ul>
+        </div>
+        <br>
+        <div>
+            <p class="keylegend">
+                <span style="background-color:#a4c652;color: #a4c652">lllll</span> Current Element <br><br>
+                <span style="background-color:black;color: black">lllll</span> Element Found <br><br>
+                <span style="background-color:crimson;color: crimson">lllll</span> Element Not Found <br><br>
+            </p>
+        </div>
+        <div id="cards">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>         
+        </div>
+              <div class="centercard">
+                 <span class="responsivetext"> Number To be Searched:</span>
+                 <input type="text" name="query" value="" id="query" class="one responsivetext">
+              </div>
+              <div class="centercard">
+                 <span class="slidecontainer responsivetext">
+                    Slow
+                    <input type="range" min="100" max="2500" id="interval" onInput="changeInterval();"
+                       onChange="changeInterval();" value="1000" class="slider responsivetext">
+                    Fast
+                 </span>
+                 <div class="blockspacebuttons">
+                    <button type="button" value="Start" id="next" class="responsivetext">Start</button>
+                    <button type="button" value="Reset" id="reset" class="responsivetext">Reset</button>
+                    <button type="button" value="Pause" id="pause" class="responsivetext">Pause</button>
+                 </div>
+              </div>
+              <div class="comment-box centercard">
+                 <div id="instruction" class="responsivetext blockspacebox"></div>
+              </div>
+    </article>
+  </body>
+</html>

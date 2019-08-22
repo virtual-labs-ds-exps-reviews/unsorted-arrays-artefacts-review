@@ -1,0 +1,157 @@
+
+input {
+    border-radius: 500px;
+    width: 15%;
+    height: 7%;
+    background-color: white;
+    color: #288ec8;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: -1.5%;
+    font-family: arial;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid #288ec8;
+}
+
+input:hover {
+    background-color: white;
+    cursor: move;
+}
+button {
+    border-radius: 500px;
+    width: 15%;
+    height: 7%;
+    background-color: #288ec8;
+    border: none;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: -1.5%;
+    font-family: arial;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+button:hover {
+    background-color: gray;
+    cursor: move;
+}
+span,
+p {
+    font-family: arial;
+    font-size: 18px;
+}
+#interval {
+    background-color: white;
+    width: 5%;
+    font-family: arial;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 3%;
+}
+#cards {
+    position: relative;
+    margin: 5%;
+    width: 100%;
+    height: 10vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+
+.card {
+    width: 4.7vw;
+    margin: 0.05%;
+    height: 6vh;
+    color: white;
+    background-color: #288ec8;
+    display: inline-block;
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.6vw;
+    padding-top: 20px;
+}
+.explanation {
+    display: none;
+    padding-top: 10%
+}
+.instructionbox {
+    position: relative;
+    float:right;
+    padding: 1vw;
+    width: 60vw;
+    border: 0.1vw solid grey;
+    border-left: 1.5vw solid #288ec8;
+    font-family: arial;
+    font-size: 1.5vw;
+    font-family: arial;
+    font-size: 1.5vw;
+}
+#instruction {
+    width: 30vw;
+    padding: 2%;
+    border: 0.1vw solid grey;
+    border-left-color: grey;
+    border-left-style: solid;
+    border-left-width: 0.1vw;
+    border-left: 1.5vw solid #288ec8;
+    font-family: arial;
+    font-size: 1.5vw;
+}
+.keylegend {
+    position: relative;
+    font-family: arial;
+    font-size: 1.4vw;
+}
+.centercard {
+    text-align: center;
+}
+.blockspacebuttons {
+    display: block;
+    position: relative;
+    top: 2em;
+}
+.blockspacebuttonsplus {
+    display: block;
+    position: relative;
+    top: 3.6em;
+}
+.blockspacebox {
+    display: block;
+    position: relative;
+    top: 3.5em;   
+    left: 32%;
+}
+.responsivetext {
+    font-family: arial;
+    font-size: 1.4vw;
+}
+#selection {
+    display: block
+}
+
+#animation {
+    margin-right: 160px
+}
+
+#query::-webkit-input-placeholder {
+
+    border-style: solid;
+    border-width: medium;
+}
+
+#query:-moz-placeholder {
+    border-style: solid;
+    border-width: medium;
+}
+
+#query:-ms-input-placeholder {
+    border-style: solid;
+    border-width: medium;
+}

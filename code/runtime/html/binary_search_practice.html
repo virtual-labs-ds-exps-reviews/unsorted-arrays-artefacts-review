@@ -1,0 +1,61 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Binary Search Practice</title>
+    <link rel="stylesheet" href="../css/linearSearch.css">
+    <script src="../js/search_practice.js"></script>
+  </head>
+  <body onload="randomise();">
+    <article>
+        <div id="animation"></div>
+              <div class="instruction-box">
+                 <b>Instructions</b>:
+                 <ul>
+                    <li>Enter the Binary Search order for searching the given query element given.</li>
+                    <li>Enter the order in terms of the indices of the elements of the array.</li>
+                    <li>Seperate the indices with commas. Eg. 4, 3, 2, 1</li>
+                    <li>Submit your answer and click Try Again for another question.</li>
+                 </ul>
+              </div>
+        <br>
+              <div>
+                 <p class="keylegend">
+                    <span style="background-color:grey;color: grey">lllll</span> Elements discarded <br><br>
+                    <span style="background-color:black;color: black">lllll</span> Element Found <br><br>
+                    <span style="background-color:crimson;color: crimson">lllll</span> Wrong Element Picked <br><br>
+                 </p>
+              </div>
+              <div id="cards">
+                 <div class="card"></div>
+                 <div class="card"></div>
+                 <div class="card"></div>
+                 <div class="card"></div>
+                 <div class="card"></div>
+                 <div class="card"></div>
+                 <div class="card"></div>
+                 <div class="card"></div>
+                 <div class="card"></div>
+                 <div class="card"></div>
+              </div>
+              <div class="centercard">
+                 <span class="responsivetext"> Number To be Searched:</span>
+                 <input type="text" name="query" id="query" class="one responsivetext" disabled>
+              </div>
+              <div class="centercard blockspacebuttons">
+                 <span class="responsivetext">
+                    Binary Search Order:
+                    <input type="text" name="answer" id="answer" class="one responsivetext" class="responsivetext">
+                 </span>
+              </div>
+              <div class=" centercard blockspacebuttonsplus">
+                 <br>
+                 <button type="button" value="Submit" id="submit" class=" responsivetext">Check Answer</button>
+                 <br><br>
+              </div>
+              <div class="comment-box centercard">
+                 <div id="instruction" class="responsivetext blockspacebox"></div>
+              </div>
+    </article>
+  </body>
+</html>
